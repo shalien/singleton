@@ -1,8 +1,7 @@
 {
   "name": "shalien-singleton",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple singleton implementation",
-  "main": "out/sigleton.js",
   "scripts": {
     "build": "babel src -d out"
   },
