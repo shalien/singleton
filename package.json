@@ -1,0 +1,27 @@
+{
+  "name": "shalien-singleton",
+  "version": "1.0.0",
+  "description": "A simple singleton implementation",
+  "main": "out/sigleton.js",
+  "scripts": {
+    "build": "babel src -d out"
+  },
+  "keywords": [
+    "shalien",
+    "singleton"
+  ],
+  "author": "Ophélien \"Shalien\" DUPARC",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-plugin-import": "^2.11.0"
+  },
+  "directories": {
+    "example": "example"
+  }
+}

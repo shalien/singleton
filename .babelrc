@@ -1,0 +1,19 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "node": "current"
+      },
+      "useBuiltIns": true,
+      "spec": true,
+      "modules": "commonjs"
+    }],
+    "stage-1"
+  ],
+  "compact": "auto",
+  "ignore": [
+    "out",
+    "bin",
+    "src/migrations"
+  ]
+}
